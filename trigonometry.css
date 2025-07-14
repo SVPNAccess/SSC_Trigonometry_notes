@@ -1,0 +1,135 @@
+body{
+  color: purple;
+  background-color: lightgreen;
+  /*background-image: url();*/
+}
+#h1{
+  color: #ffd400;
+  background-color: darkgreen;
+  text-align: center;
+}
+#note1 {
+  color: tomato;
+}
+.page{
+  background-color: #90f174;
+}
+.name {
+  text-decoration: darkgreen underline;
+}
+.rule{
+  text-decoration:darkgreen wavy underline;
+}
+#img1,img2{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+#formulas{
+  color: darkgreen;
+ /* color: #128de0;*/
+  text-decoration: underline;
+  text-decoration-thickness: 2px; /* Control thickness of the first line */
+  /*text-shadow: 0 3px 0 currentColor; /* Add a shadow below as the second line */
+}
+}
+#ul0{
+  list-style-type: circle;
+}
+.ol0{
+  list-style-type: lower-roman;
+}
+#ul1{
+  list-style-type: square;
+}
+#img3{
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+#exformulas{
+  list-style-type:number;
+}
+#h4{
+  text-decoration: underline;
+}
+#table1{
+  border: solid black;
+  background-color: #c3ffc3;
+  margin: auto;
+}
+#img4{
+  height: 200px;
+  width: 200px;
+  display: block;
+  margin: auto;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.site-footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.site-footer .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-footer .footer-section {
+  flex: 1;
+  margin: 10px;
+  min-width: 200px;
+}
+
+.site-footer h4 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.site-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.site-footer ul li {
+  margin-bottom: 10px;
+}
+
+.site-footer ul li a {
+  text-decoration: none;
+  color: #aaa;
+}
+
+.site-footer ul li a:hover {
+  color: #fff;
+}
+
+.site-footer .social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.site-footer .social-links a:hover {
+  color: #fff;
+}
+
+.site-footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 10px;
+  border-top: 1px solid #444;
+}
